@@ -1,0 +1,18 @@
+@media print{
+    body, h1{
+        color: black;
+        font-family: Times, serif;
+    }
+    
+    h1 > #elon {
+        text-align: left;
+    }
+    
+    h2{
+        background-color: unset;
+    }
+    
+    .topo{
+        color: white;
+    }
+}

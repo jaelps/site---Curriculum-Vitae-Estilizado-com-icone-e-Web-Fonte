@@ -1,0 +1,109 @@
+body {
+  color: darkslategrey;
+  font-family: arial, sans-serif;
+  font-size: 1rem;
+}
+
+
+
+.text-center {
+  text-align: center;
+}
+
+#footer{
+  margin: 25px auto  25px auto;
+}
+
+#copyright {
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  margin: -10px auto 16px auto;
+}
+
+#social{
+  display: flex;
+  justify-content: center;
+
+}
+
+.fab{
+  display: flex;
+  flex-direction: column;
+    align-items: center;
+}
+
+.fa-facebook-square{
+  color: navy;
+}
+
+.fa-twitter-square{
+  color: dodgerblue;
+  
+  
+}
+
+.fa-linkedin{
+  color: navy;
+  
+}
+
+.social-tex{
+  color: white;
+  padding: 1px;
+  /*visibility: hidden;*/
+}
+
+h1 {
+  font-size:30px;
+  font-family: 'Audiowide', cursive;
+}
+
+h2 {
+  font-size:24px;
+  background-color: lightskyblue;
+  border-radius: 5px;
+}
+
+h1, h2, a, a:visited {
+  color: darkblue;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+h1 a, h1 a:visited {
+  color: white;
+}
+h2 a, h2 a:visited {
+  color: lightskyblue;
+}
+h1:hover a, h2:hover a {
+  color: darkblue;
+}
+
+span{
+  line-height: 1.5rem;
+}
+
+p{
+  line-height: 1.5rem;
+}
+
+.btn{
+  font-size: 1.3rem;
+  margin: 50px 2px;
+}
+
+
+.btn:hover{
+  color: white;
+  text-decoration: none;
+  background-color: darkblue;
+}
+
+
